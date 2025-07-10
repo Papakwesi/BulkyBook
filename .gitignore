@@ -1,0 +1,12 @@
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.vsidx
+*.dbmdl
+*.log
+*.pidb
+*.sdf
+*.cache
+*.csproj.user
