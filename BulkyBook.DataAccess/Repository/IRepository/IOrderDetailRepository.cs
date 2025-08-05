@@ -8,10 +8,9 @@ using System.Xml.Serialization;
 
 namespace BulkyBook.DataAccess.Repository.IRepository
 {
-    public interface IShoppingCartRepository : IRepository<ShoppingCart>
+    public interface IOrderDetailRepository : IRepository<OrderDetail>
     {
-        int IncreaseCount(ShoppingCart shoppingCart, int count);
-        int DecreaseCount(ShoppingCart shoppingCart, int count);
+        void Update(OrderDetail obj);
 
     }
 }
